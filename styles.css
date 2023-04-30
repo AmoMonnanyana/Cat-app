@@ -1,30 +1,53 @@
 body {
-    background-color: gray;
-    font-family: sans-serif;
-    padding: auto;
+background-image: url(https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+object-position: 90% 10;
+color: beige;
+font-size:large;
+/*background-color: rgba(74, 74, 23, 0.68)*/
 }
-h1 {
-    font-size: 40px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-
-  h1, h2, h3, p {
-    text-align: center;
-  }
-
-  img {
-        display: block;
-        margin-left: 50px;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-  }
+div {
+  width: 90%;
+  background-color: rgba(74, 74, 23, 0.588);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+figcaption {
+  font-size: smaller;
+  font-style: italic;
+}
+hr {
+  height: 3px;
+  background-color: rgb(202, 181, 134);
+  border-color: rgb(202, 181, 134)
+}
+main {
+  padding: 40px
+}
+.line {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+fieldset {
+  display:block;
+  color: blanchedalmond;
+}
+a {
+  color:rgb(202, 181, 134)
+}
+a:active {
+  color:blueviolet;
+}
+a:hover {
+  color:black;
+}
+address {
+  font-size:smaller
+}
+title {
+  font-size:larger
+}
