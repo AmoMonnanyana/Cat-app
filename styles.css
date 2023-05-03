@@ -1,53 +1,42 @@
-body {
-background-image: url(https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-object-position: 90% 10;
-color: beige;
-font-size:large;
-/*background-color: rgba(74, 74, 23, 0.68)*/
+body{
+  background-color:rgba(163, 163, 69, 0.719);
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
-div {
-  width: 90%;
-  background-color: rgba(74, 74, 23, 0.588);
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 60px;
+.cats {
+  background-color: bisque;
+  margin: 0.5em;
+  padding: 1em;
+  border-radius: 1em;
+  border: 2px solid;
+  border-color: rgb(64, 86, 107);
+  flex: 1;
 }
-figcaption {
-  font-size: smaller;
-  font-style: italic;
-}
-hr {
-  height: 3px;
-  background-color: rgb(202, 181, 134);
-  border-color: rgb(202, 181, 134)
-}
-main {
-  padding: 40px
-}
-.line {
-  margin-left: 40px;
-  margin-right: 40px;
+
+@media (min-width : 960px) {
+  .catbox {
+    display: flex;
+  }
 }
 fieldset {
-  display:block;
-  color: blanchedalmond;
+  margin: 1em;
+  border: 0em;
+}
+button{
+  padding: 0.5em;
+  border: 1px solid;
+  border-radius: 0.5em;
+}
+input{
+  padding: 0.5em;
+  border: 1px solid;
+  border-radius: 0.5em;
 }
 a {
-  color:rgb(202, 181, 134)
-}
-a:active {
-  color:blueviolet;
-}
-a:hover {
   color:black;
 }
-address {
-  font-size:smaller
+a:hover {
+  color: rgb(141, 84, 84);
 }
-title {
-  font-size:larger
+.address{
+  font-size: smaller;
 }
